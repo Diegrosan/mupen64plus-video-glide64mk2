@@ -21,7 +21,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <m64p_types.h>
+#include "m64p_types.h"
 
 #if defined(__GNUC__)
 #define ATTR_FMT(fmtpos, attrpos) __attribute__ ((format (printf, fmtpos, attrpos)))
